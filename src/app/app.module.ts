@@ -13,6 +13,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
   ],
   entryComponents: [HelloWorldComponent],
   providers: [],
+  //bootstrap: [AppComponent]
 })
 export class AppModule { 
   constructor(injector: Injector) {
